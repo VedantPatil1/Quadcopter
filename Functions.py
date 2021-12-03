@@ -104,4 +104,5 @@ def Graph2(AmpRate, K, Weight):
     plt.title("Rpm Vs AmpDraw")
     plt.xlabel('Ampdraw in A')
     plt.ylabel("Rpm of propeller")
-    plt.show()
+    
+    plt.savefig('Graph2.pdf')
